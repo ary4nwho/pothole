@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pothole Detection System</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f3f4f6;
+      color: #1f2937;
+    }
+    header {
+      background-color: #0ea5a4;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      background-color: #1f2937;
+      padding: 0.7rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #fb923c;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      margin-top: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #0ea5a4;
+      border-bottom: 2px solid #0ea5a4;
+      padding-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1f2937;
+      color: white;
+      margin-top: 2rem;
+    }
+    .highlight {
+      color: #fb923c;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pothole Detection & Alert System</h1>
+    <p>Smart Monitoring for Safer Roads</p>
+  </header>
+
+  <nav>
+    <a href="#overview">Overview</a>
+    <a href="#features">Features</a>
+    <a href="#working">Working</a>
+    <a href="#components">Components</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="overview">
+    <h2>Overview</h2>
+    <p>
+      The <span class="highlight">Pothole Detection and Alert System</span> is a smart solution designed to identify potholes on roads using sensors and GPS data.
+      The collected data can be used by municipal authorities for quick maintenance, helping prevent accidents and improve road quality.
+    </p>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <ul>
+      <li>Automatic pothole detection using sensors.</li>
+      <li>Real-time location tracking with GPS.</li>
+      <li>Data storage for analysis and mapping.</li>
+      <li>Alert system for drivers and authorities.</li>
+    </ul>
+  </section>
+
+  <section id="working">
+    <h2>How It Works</h2>
+    <p>
+      The system uses an <span class="highlight">ESP32 microcontroller</span> connected with sensors like the <span class="highlight">MPU6050 accelerometer</span> to detect road vibrations.
+      Once a pothole is detected, the location is captured via GPS and can be displayed on a map or stored for later reporting.
+    </p>
+    <img src="https://cdn.pixabay.com/photo/2016/03/31/20/37/gps-1299740_960_720.png" alt="System working illustration" width="100%" style="border-radius:8px; margin-top:10px;">
+  </section>
+
+  <section id="components">
+    <h2>Key Components</h2>
+    <ul>
+      <li>ESP32 Microcontroller</li>
+      <li>MPU6050 Accelerometer Sensor</li>
+      <li>GPS Module</li>
+      <li>SIM Module for Communication</li>
+      <li>Power Supply</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Developed by: <strong>Your Name / Team</strong></p>
+    <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Pothole Detection Project | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
